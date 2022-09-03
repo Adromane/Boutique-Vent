@@ -1,0 +1,621 @@
+body{
+    background: url("Body.jpg");
+    background-size: cover;
+    min-height: 90px;
+}
+
+}
+.Tete{
+    background: black;
+    width: 102%;
+    height: 500%;
+}
+.Navigation{
+    background: black;
+    min-height: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Navigation,ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.Logo{
+    flex: 2 1 40rem;
+    font-weight: normal;
+    color: white;
+}
+
+.Debut,li,a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex: 2 2 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.Center{
+    float: center;
+    border: 1px solid black;
+    min-height: 390px;
+    min-width: 300px;
+    margin: 1px;
+    padding: 240px;
+}
+
+.VAETS{
+    text-align: center;
+    font-size: 100px;
+}
+
+.Homme{ /* CONFIGURER LE BOUTON HOMMES */
+    padding: 1rem 2rem;
+    background: white;
+    font-size: 1.8rem; /* LA TAILLE DE CONTACT US */
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+
+.Femme{ /* CONFIGURER LE BOUTON FEMMES */
+    padding: 1rem 2rem;
+    background: white;
+    font-size: 1.8rem; /* LA TAILLE DE FEMMES*/
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+
+.Enfant{ /* CONFIGURER LE BOUTON ENFANTS */
+    padding: 1rem 2rem;
+    background: white;
+    font-size: 1.8rem; /* LA TAILLE DE ENFANTS*/
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+
+.B{ /*La section des trois boutons*/
+    display: flex;
+}
+
+
+.C{
+    color: black;
+}
+
+.Droite{
+    float: right;
+}
+
+#Search{
+    padding: 5px;
+    border: 3px solid maroon;
+    border-radius: 40px; /* Arrondir les bords de notre champ */
+    outline: none; /* Enlever les droites en noir*/
+}
+.S{  /* L'icone search*/
+    float: right;
+    align-items: center;
+}
+
+.N{
+    color: black;
+    font-size: 80px;
+}
+
+.Produits{
+    background: white;
+}
+
+.TOUT{
+    background: white;
+}
+
+.LV{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.PBAH{ /* Paragraphe de BAH */
+    font-size: 30px;
+}
+.ABAH{ /* Bouton ajouter de BAH */
+    font-size: 30px;
+}
+
+.PPNF{ /* Paragraphe de PNF */
+    font-size: 30px;
+}
+.APNF{ /* Bouton ajouter de PNF */
+    font-size: 30px;
+}
+
+.PPANH{ /* Paragraphe de PANH */
+    font-size: 30px;
+}
+.APANH{ /* Bouton ajouter de PANH */
+    font-size: 30px;
+}
+
+.PPABF{ /* Paragraphe de PABF */
+    font-size: 30px;
+}
+.APABF{ /* Bouton ajouter de PABF */
+    font-size: 30px;
+}
+
+.PCFH{ /* Paragraphe de CFH */
+    font-size: 30px;
+}
+.ACFH{ /* Bouton ajouter de CFH */
+    font-size: 30px;
+}
+
+.PPNUF{ /* Paragraphe de PNUF*/
+    font-size: 30px;
+}
+.APNUF{ /* Bouton ajouter de PNUF */
+    font-size: 30px;
+}
+
+.Pied{
+    background: black;
+    height:300px;
+}
+.L{
+    color: white;
+    font-size: 40px;
+}
+
+.A{
+    color: white;
+}
+
+.C{
+    color: white;
+}
+
+.E{
+    color: white;
+}
+
+.M{
+    text-align: center;
+    color: white;
+}
+
+.IN,li,a{
+    text-align: center;
+    color: white;
+}
+
+.MC{
+    color: white;
+    display: flex;
+}
+
+.MCS{
+    color: white;
+    text-align: center;
+}
+
+
+.IDC{
+    text-align: center;
+}
+.ST{
+    background: white;
+}
+.Okay{
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    height: 650px;
+    background: red;
+    background-image: url("DF.jpg") ;
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.Obtention{
+text-align: center;
+color: white;
+background: red;
+margin-left: auto;
+margin-right: auto;
+width: 450px;
+
+}
+
+.PUB{
+text-align: center;
+color: white;
+background: red;
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+}
+
+.slide{
+    float: left;
+}
+.slider{
+    width: 620px;
+    overflow: hidden;
+    margin: 100px auto;
+}
+.Pictures{
+    text-align: center;
+    width: 255px;
+    margin-left:  auto;
+    margin-right: auto;
+    
+}
+.Center{
+    text-align: center;
+    position: relative;
+   
+}
+.info{
+    color: white;
+    background-color: red;
+    margin: 5px;
+    padding: 15px;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.DEP{ /* Paragraph de DEP*/
+    font-size: 20px;
+}
+.EM{ /* Paragraph de EM*/
+    font-size: 20px;
+}
+}
+.MI{ /* Paragraph de MI*/
+    font-size: 20px;
+}
+}
+.FIN{ /* Paragraph de FIN*/
+    font-size: 20px;
+}
+.Element{
+    background: white;
+    margin: 15px;
+    padding: 5px;
+}
+.HB{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftright{
+    border: 1px solid white;
+    background: white;
+    min-height: 400px;
+    margin: 5px;
+    padding: 5px;
+}
+.left{
+    float: left;
+    border: 20px solid white;
+    background-color: white;
+    min-height: 300px;
+    margin: 15px;
+    padding: 5px;
+}
+.right{
+    float: right;
+    border: 20px solid white;
+    background-color: white;
+    min-height: 300px;
+    margin: 15px;
+    padding: 5px; 
+}
+.Enonciation{
+    color: white;
+    background:red;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 300px;
+    height: 100px; 
+}
+
+}
+.pr{ /* Paragraph de MI*/
+    font-size: 20px;
+}
+.dx{ /* Paragraph de MI*/
+    font-size: 20px;
+}
+.jj{
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    width: 300px;
+    height: 100px;
+}
+.senga{
+    text-align: center;
+    color: white;
+    background:red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 600px;
+    width: 700px;
+    height: 60px;  
+}
+.Outil{
+    background: white;
+}
+.JJB{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+}
+#plop{
+    text-decoration: blink;
+}
+.logo{
+    margin: 15px;
+    padding: 5px;
+}
+.logo-content{
+    margin:20px;
+    padding:40px;
+    position: absolute;
+    display: flex;
+}
+.Deco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.P1{
+   /* Paragraph de P1D*/
+   font-size: 20px; 
+}
+.P2{
+    /* Paragraph de P2D*/
+    font-size: 20px; 
+ }
+ .P3{
+    /* Paragraph de P3D*/
+    font-size: 20px; 
+ }
+ .P4{
+    /* Paragraph de P4D*/
+    font-size: 20px; 
+ }
+ .P5{
+    /* Paragraph de P5D*/
+    font-size: 20px; 
+ }
+.P11{
+  /* Paragraph de P11D*/
+  font-size: 20px;    
+ }
+ .P12{
+    /* Paragraph de P12D*/
+    font-size: 20px;    
+   }
+.P13{
+    /* Paragraph de P13D*/
+    font-size: 20px;    
+ }
+
+ .Dac{
+     background: red;
+ }
+ .F1{
+    /* Paragraph de F1D*/
+    font-size: 20px;    
+ }
+ .F2{
+    /* Paragraph de F2D*/
+    font-size: 20px;    
+ }
+ .F3{
+    /* Paragraph de F3D*/
+    font-size: 20px;    
+ }
+.F4{
+    /* Paragraph de F4D*/
+    font-size: 20px;    
+ }
+.F5{
+    /* Paragraph de F5D*/
+    font-size: 20px;    
+ }
+.Page{
+    color:black;
+    margin:5px;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.DB{
+    background-image: url(JPL.jpg); 
+}
+.debuter{
+    text-align: center;
+color: white;
+background:blue;
+margin-left: auto;
+margin-right: auto;
+width: 420px;
+}
+.publi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.PU1{
+    color:yellow;
+    /* Paragraph de PU1D*/
+    font-size: 24px;    
+ }
+.PU2{
+    color:yellow;
+    /* Paragraph de PU2D*/
+    font-size: 24px;    
+ }
+ .PU3{
+    color:yellow;
+    /* Paragraph de PU3D*/
+    font-size: 24px;    
+ }
+ .PU4{
+    color:yellow;
+    /* Paragraph de PU4D*/
+    font-size: 24px;    
+ }
+ .PU5{
+    color:yellow;
+    /* Paragraph de PU5D*/
+    font-size: 24px;    
+ }
+ .PU6{
+    color:yellow;
+    /* Paragraph de PU6D*/
+    font-size: 24px;    
+ }
+ .Acces{
+    margin:10px;
+    padding:60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+color: white;
+background: blue;
+margin-left: auto;
+margin-right: auto;
+
+}
+.Cein{
+    color:blue;
+    margin:5px;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.PAN{
+    background:violet;
+}
+.PA{
+    margin:10px;
+    padding:60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.PAN1{
+    color: black;
+    /* Paragraph de PAN1D*/
+   font-size: 23px;
+}
+.PAN2{
+    color: black;
+    /* Paragraph de PAN2D*/
+   font-size: 23px;
+}
+.PAN3{
+    color: black;
+    /* Paragraph de PAN3D*/
+   font-size: 23px;
+}
+.PAN4{
+    color: black;
+    /* Paragraph de PAN4D*/
+   font-size: 23px;
+}
+.DR{
+    background: yellowgreen;
+}
+.CE{
+    align-items: center;
+    height: 15px;
+}
+.Livre{
+    color: yellowgreen;
+    margin:15px;
+    padding:165px;
+}
+.CEINT{
+    margin:10px;
+    padding:60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.c1{
+    color: black;
+    /* Paragraph de c1D*/
+   font-size: 23px;
+}
+.c2{
+    color: black;
+    /* Paragraph de c2D*/
+   font-size: 23px;
+}
+.c3{
+    color: black;
+    /* Paragraph de c3D*/
+   font-size: 23px; 
+}
+.CHEM{
+    margin:10px;
+    padding:60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+.M1{
+    color: yellow;
+    /* Paragraph de M1D*/
+   font-size: 23px; 
+}
+.M2{
+    color: yellow;
+    /* Paragraph de M2D*/
+   font-size: 23px; 
+}
+.M3{
+    color: yellow;
+    /* Paragraph de M3D*/
+   font-size: 23px; 
+}
+.M4{
+    color: yellow;
+    /* Paragraph de M4D*/
+   font-size: 23px; 
+}
+
+
+
+
+
+
+ 
+
+

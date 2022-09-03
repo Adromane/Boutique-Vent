@@ -1,0 +1,320 @@
+
+body{
+    background: url("Images/Body.jpg");
+    background-size: cover;
+    min-height: 90px;
+    background-attachment: fixed;
+}
+
+
+.Tete{
+    background: black;
+    width: 102%;
+    height: 500%;
+}
+
+.Navigation{
+    min-height: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Navigation,ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.Logo{
+    flex: 2 1 40rem;
+    font-weight: normal;
+    color: white;
+}
+
+.Debut,li,a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex: 2 2 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.Center{
+    float: center;
+    min-height: 390px;
+    min-width: 300px;
+    margin: 1px;
+    padding: 240px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+.VAETS{
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.Homme{ /* CONFIGURER LE BOUTON HOMMES */
+    padding: 1rem 2rem;
+    background: white;
+    font-size: 1.8rem; /* LA TAILLE DE CONTACT US */
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+
+.Femme{ /* CONFIGURER LE BOUTON FEMMES */
+    padding: 1rem 2rem;
+    background: white;
+    font-size: 1.8rem; /* LA TAILLE DE FEMMES*/
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+
+.Enfant{ /* CONFIGURER LE BOUTON ENFANTS */
+    padding: 1rem 2rem;
+    background: white;
+    font-size: 1.8rem; /* LA TAILLE DE ENFANTS*/
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+
+.B{ /*La section des trois boutons*/
+    display: flex;
+}
+
+
+.C{
+    color: black;
+}
+
+.Droite{
+    float: right;
+}
+
+#Search{
+    padding: 5px;
+    border: 3px solid maroon;
+    border-radius: 40px; /* Arrondir les bords de notre champ */
+    outline: none; /* Enlever les droites en noir*/
+}
+.S{  /* L'icone search*/
+    float: right;
+    align-items: center;
+}
+
+.N{
+    color: black;
+    font-size: 50px;
+}
+
+.Produits{
+    column-count: 3;
+}
+
+.BAH{
+    text-align: center;
+}
+
+.Line{
+    background: red;
+    height: 90px;
+}
+
+hr{ /* Ligne separatrice*/
+    border: 0px;
+}
+
+.Bloc{ /* Le bloc general pour le deuxieme bloc*/
+    background: url("Images/Homme\ en\ Bleu\ 1.jpg");
+    min-height: 1088px;
+    margin: 5px;
+    padding: 5px;
+    background-attachment: fixed;
+}
+
+.TXT{
+    background:white;
+    margin-right: auto;
+    height: 600px;
+    width: 900px;
+} 
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap'); 
+.T{  /* Le texte dans le bloc blanc*/
+    color: black;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 20px;
+}
+.I{
+    color: red;
+    font-size: 30px;
+}
+.V{
+    color: red;
+    font-size: 40px;
+}
+
+.IDC{
+    text-align: center;
+}
+
+.TDR{
+    color: white;
+}
+
+
+
+.Pied2{ /* Le 2e pied de page */
+    width: 100vw;
+    height: 70px;
+    padding: 5px;
+    background: black;
+    text-align: center;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer{
+	background-color: #24262b;
+    padding: 6px 0;
+}
+.footer-col{
+   width: 45%;
+   padding: 0 15px;
+   color: white;
+}
+.footer-col-cont{
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Code CSS Pour la page Contatc*/
+
+.Contact{
+    background: url("Images/Contact\ 1.jpg");
+    background-size: cover;
+}
+
+.Call{
+    background: gray;
+    top: 50px;
+}
+
+.IC{
+    background: url("Images/letters-2794672_960_720.jpg");
+    width: 110%;
+    height: 300px;
+    background-attachment: fixed;
+}
+
+.CU{
+    font-size: 100px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Code CSS Pour la page Ajouter au panier*/
+
+
+.AJAP{
+    background: url("Images/Ajouter\ au\ panier.jpg");
+    background-size: cover;
+}
+
+.ID{
+    background: url("Images/Commande.jpg");
+    width: 110%;
+    height: 300px;
+    background-attachment: fixed;
+}
+
+.CD{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+.Commande{
+    background: white;
+}
+
+.RP{
+    background: red;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ALL{
+    background: black;
+}
+
+.Commande2{
+    background: white;
+    margin-bottom: 100px;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+/* La page ENFANTS*/
+
+.CE{
+    background: url("Enfants/Body\ 2.jpg");
+    width: 110%;
+    height: 500px;
+    background-attachment: fixed;
+}
+.EN{
+    font-size: 100px;
+    text-align: center;
+    color: black;
+}
+
+.Conteneur{
+    column-count: 3;
+    background: white;
+}
+
+.H1{
+    text-align: center;
+}
+
+
+
+
+
+
+/* La page Homme */ 
+
+
+
+
+
+
